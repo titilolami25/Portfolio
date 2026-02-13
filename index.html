@@ -3,104 +3,157 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Titilola Okusolubo — Profile</title>
+  <title>Titilola Okusolubo — Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-  <!-- ===== Header / Hero ===== -->
-  <header class="hero">
-    <div class="container">
-      <img src="images/Lola.png" alt="Titilola Okusolubo" class="hero-img" />
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <div class="container hero-content">
+
+    <div class="hero-text">
       <h1 class="hero-name">Titilola Okusolubo</h1>
-      <p class="hero-title">Entrepreneur · Front-End Developer · Data Analyst</p>
-      <a href="#contact" class="btn btn-primary">Get in Touch</a>
-    </div>
-  </header>
 
-  <!-- ===== About / Profile ===== -->
-  <section id="about" class="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I’m Titilola Okusolubo — an entrepreneur and product leader with a strong background in
-        <strong>front-end development</strong> (React, JavaScript, Redux, Tailwind),
-        <strong>data analysis</strong> (Power BI, Excel), and
-        <strong>business strategy</strong>. Over the years, I’ve delivered high-impact solutions,
-        trained startup founders, and built user-focused products.
+      <p class="hero-title">
+        Frontend Engineer • UI/UX Designer • Product Builder
       </p>
-      <p>
-        <p>
-  My coding journey includes developing a modern <strong>e-commerce platform</strong>,
-  delivering a <strong>gender diversity data analysis</strong> dashboard with Power BI,
-  and building the corporate website for <strong>Pleasant Fresh</strong> using custom APIs.
-  I thrive at the intersection of <em>creativity</em> and <em>technology</em>,
-  helping businesses grow through clean design and solid engineering.
-</p>
-<p>
-  When I’m not working, I mentor entrepreneurs, experiment with new UI trends,
-  and explore Afro-fusion pastries through my venture
-  <strong>AfroPastry Fusion Ltd.</strong>
-</p>
 
-<form
-  action="https://formspree.io/f/xvgbedpe"
-  method="POST"
-  class="contact-form"
->
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="_replyto" placeholder="Your Email" required />
-  <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-  <button type="submit" class="btn btn-primary">Send</button>
-</form>
+      <p class="hero-subtitle">
+        Fintech Interfaces • React & TypeScript • End-to-End Product Development
+      </p>
+
+      <p class="hero-tagline">
+        I design and build scalable, user-centered web and fintech applications —
+        taking products from idea and UI/UX design through development, deployment,
+        and real-world use.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+
+        <a href="cv/Lola Resume.pdf"
+           class="btn btn-secondary"
+           download>
+          Download CV
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-img-wrapper">
+      <img src="images/Lola.png"
+           alt="Titilola Okusolubo – Frontend Engineer & UI/UX Designer"
+           class="hero-img" />
+    </div>
+
+  </div>
+</header>
 
 
-<!-- Projects Section -->
+<!-- ===== ABOUT ===== -->
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Me</h2>
+
+    <p>
+      I’m Titilola Okusolubo — an entrepreneur and product leader with a strong background in 
+      <strong>front-end development</strong> (React, JavaScript, TypeScript, Tailwind CSS), 
+      <strong>UI/UX design</strong>, 
+      <strong>AI Prompt Engineering</strong>, 
+      <strong>data analysis</strong> (Power BI, Excel), and 
+      <strong>digital business strategy</strong>.
+    </p>
+
+    <p>
+      I design and refine digital experiences that are intuitive, scalable, and results-driven. 
+      I’m passionate about helping businesses leverage technology effectively and supporting founders 
+      through structured training and mentorship programs.
+    </p>
+
+    <p>
+      Beyond tech, I am the founder of <strong>Pleasant Fresh</strong> — a NAFDAC-approved household 
+      product brand built to provide affordable and effective cleaning solutions in the Nigerian market.
+    </p>
+  </div>
+</section>
+
+
+<!-- ===== PROJECTS ===== -->
 <section id="projects" class="projects-section">
   <div class="container">
-    <h2>My Projects</h2>
-    
+    <h2>Selected Projects</h2>
+
     <div class="projects-grid">
+
+      <div class="project-card">
+        <img src="images/pleasant-fresh.png" alt="Pleasant Fresh preview" />
+        <h3>Pleasant Fresh – Brand & E-commerce Website</h3>
+        <p>
+          Designed and developed the official Pleasant Fresh website,
+          handling UI/UX, frontend implementation, and deployment.
+        </p>
+        <a href="https://pleasantsoap-avi7.vercel.app" target="_blank">Live Site</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/gopay.png" alt="GoPay fintech dashboard preview" />
+        <h3>GoPay – Fintech B2E Platform</h3>
+        <p>
+          Built secure, intuitive dashboards for transactions and workflows.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <img src="images/resida.png" alt="Resida property platform preview" />
+        <h3>Resida – Property Search Platform</h3>
+        <p>
+          Built with React, TypeScript, and Tailwind CSS focused on UX and performance.
+        </p>
+        <a href="https://github.com/titilolami25/resida-app" target="_blank">Repository</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/tbdex.png" alt="tbDEX wallet preview" />
+        <h3>tbDEX Wallet – Open Source Contribution</h3>
+        <p>
+          Contributed to frontend discussions focused on security and usability.
+        </p>
+        <a href="https://github.com/titilolami25/tbdex-wallet" target="_blank">Repository</a>
+      </div>
 
       <div class="project-card">
         <img src="images/ecommerce1.png" alt="E-commerce app preview" />
         <h3>E-Commerce Website</h3>
-        <p>A modern online store with cart, product filters, and checkout flow. Built with React, Tailwind CSS and Node.js.</p>
-        <a href="https://github.com/titilolami25/e-commerce-project.git"target="_blank" rel="noopener">View Code</a>
-        <a href="https://e-commerce-project-jno1.vercel.app/"target="_blank" rel="noopener">Live Demo</a>
+        <p>Modern store with filters, cart & checkout. Built with React + Tailwind.</p>
+        <a href="https://e-commerce-project-jno1.vercel.app/" target="_blank">Live Demo</a>
       </div>
-
-      <div class="project-card">
-        <img src="images/expense-tracker2.png" alt="Expense Tracker preview" />
-        <h3>Expense Tracker</h3>
-        <p>A simple tracker that helps users record income & expenses and visualize their spending.</p>
-        <a href="https://github.com/titilolami25/expense_tracker.git" target="_blank" rel="noopener">View Code</a>
-        <a href="https://expense-tracker-three-olive-59.vercel.app" target="_blank" rel="noopener">Live Demo</a>
-      
-      </div>
-      
-
-      <div class="project-card">
-  <img src="images/gender-diversity pwc.png" alt="Gender Diversity dashboard preview">
-  <h3>Gender Diversity (PwC)</h3>
-  <p>A Power BI dashboard analyzing gender representation and diversity metrics, created as part of PwC’s data analytics project.</p>
-  <a href="https://github.com/titilolami25/gender-diversity-pwc" target="_blank" rel="noopener">View Code</a>
-</div>
 
     </div>
   </div>
 </section>
 
-  <footer class="footer">
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+
+    <form action="https://formspree.io/f/xvgbedpe" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="_replyto" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
   <p>&copy; 2025 Titilola Okusolubo. All rights reserved.</p>
   <div class="footer-social">
-    <a href="https://github.com/titilolami25" target="_blank" rel="noopener">GitHub</a>
-<a href="https://linkedin.com/in/titilola-okusolubo-5569701b/" target="_blank" rel="noopener">LinkedIn</a>
-<a href="https://vercel.com/lola25" target="_blank" rel="noopener noreferrer">
-  Vercel
-</a>
-
-</div>
+    <a href="https://github.com/titilolami25" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/titilola-okusolubo-5569701b/" target="_blank">LinkedIn</a>
+  </div>
 </footer>
-</body>
-</html>
+
