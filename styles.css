@@ -56,10 +56,10 @@ section {
 }
 
 .hero-img {
-  width: 200px;
-  height: 200px;
+  width: 225px;   
+  height: 300px;  
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: cover; 
 }
 
 .hero-buttons {
@@ -123,15 +123,15 @@ section {
   gap: 2rem;
 }
 
-.project-card {
-  background: #1a1a1a;
-  padding: 1.5rem;
-  border-radius: 10px;
-  transition: 0.3s ease;
+.project-card a {
+  color: #970740;        
+  font-weight: 600;       
+  text-decoration: none;  /* keeps it clean */
+  transition: color 0.3s ease;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
+.project-card a:hover {
+  color: #ff3380;        
 }
 
 .project-card img {
